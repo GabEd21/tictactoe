@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text{
+    text-align: center;
+}
+
+
+::placeholder{
+    color: blue;
+}
+table{
+    margin: auto;
+    border-collapse: collapse ;
+    
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+.vertical{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.horizontal{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.x {
+  color: blue;
+  font-size: 80px;
+}
+
+.o {
+  color: red;
+  font-size: 80px;
+}
+.winO{
+    color: green;
+}
+.winX{
+    color: purple;
+}
