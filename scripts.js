@@ -23,8 +23,10 @@ if (player1 === "X") {
 }
 
 this.classList.add(player1()); */
+const player1 = "X"
+const player2 = "O"
 
-const win=[
+const wincombo=[
     [0,1,2],
     [3,4,5],
     [6,7,8],
@@ -36,6 +38,8 @@ const win=[
   ];
 
 function clck(cell){
-    cell.textContent = "X"
+    if (true) {
+        cell.textContent = cell.textContent == "X"; "O"; "X";
+    }
 }
 
