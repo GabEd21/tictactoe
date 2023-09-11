@@ -5,24 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activity1</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    
 </head>
 <body>
-    <div class="board" id="board">
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-           <div class="cell" data-cell></div>
-       </div>
-       <div class="winning-message" id="winningMessage">
-           <div id="winningMessageText"></div>
-           <button id="restartButton">Restart</button>
-       </div>
-   </body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+        <br><br>
+        <div class = "ui">
+            <div class="row">
+                <input type="text" id= "t1" class="cell" onclick="func1(); tablefunc();" readonly>
+                <input type="text" id= "t2" class="cell" onclick="func2(); tablefunc();" readonly>
+                <input type="text" id= "t3" class="cell" onclick="func3(); tablefunc();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id= "t4" class="cell" onclick="func4(); tablefunc();" readonly>
+                <input type="text" id= "t5"  class="cell" onclick="func5(); tablefunc();" readonly>
+                <input type="text" id= "t6" class="cell" onclick="func6(); tablefunc();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id= "t7" class="cell" onclick="func7(); tablefunc();" readonly>
+                <input type="text" id= "t8" class="cell" onclick="func8(); tablefunc();" readonly>
+                <input type="text" id= "t9" class="cell" onclick="func9(); tablefunc();" readonly>
+            </div>
+        </div>
+        <br><br><br>
+        
+        <button id="rst" onclick="restart()"> RESET </button>
+        <br><br>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
